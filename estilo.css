@@ -6,11 +6,13 @@
     color: black;
     width:50%;
 }
-.fundo{
-    max-width:1250px;
-    height:600px;
+.apresentação{
+    max-width:440px;
+    height:300px;
     border-top-left-radius:20px;
     border-top-right-radius:20px;
+    border-bottom-left-radius:0%;
+    border-bottom-right-radius:0%;
 }
 .a1{
     color: black;
@@ -27,9 +29,7 @@ a{
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 a:hover{
-    color:red;
-    border:solid;
-    
+    color:red;    
 }
 .cabeçalho{
     background-color:aqua;
