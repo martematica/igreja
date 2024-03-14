@@ -16,11 +16,20 @@
     color: black;
     font-size: x-large;
 }
+.a1:hover{
+    color:black;
+}
+
 a{
     color:blueviolet;
     font-size: large;
     text-decoration:transparent;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+a:hover{
+    color:red;
+    border:solid;
+    
 }
 .cabeçalho{
     background-color:aqua;
@@ -44,6 +53,11 @@ body{
 button{
     font-size: x-large;
     border-radius:0px;
+    }
+button:hover{
+    background-color: blue;
+    border:solid;
+    border-color: black;
     }
 .btn1{
     font-size: x-large;
