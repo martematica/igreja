@@ -39,7 +39,7 @@ a:hover{
     border-top-left-radius:20px;
     border-top-right-radius:20px;
 }
-img{border-radius:100px;}
+img{border-radius:90px;}
 body{
     background-color:white;
     color:black;
@@ -73,4 +73,7 @@ button:hover{
 div{
     background-color: blue;
     color: aliceblue;
+}
+.linha{
+    height:400px;
 }
