@@ -7,12 +7,12 @@ img{
     width:250px;
     border-radius:50%;
 }
-td{
+.tdtop{
    background-color: aqua;
 border-radius:15px;
 }
 button{
-   width:500px;height:33px;
+   width:auto;height:auto;
 }
 a{
    font-size:x-large;
@@ -25,7 +25,6 @@ a:hover{
    margin-left:600px;
 }
 .esquerda{
-   margin-top:250px;
    width: auto;
 }
 .top{
