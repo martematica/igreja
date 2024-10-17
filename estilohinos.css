@@ -1,26 +1,27 @@
 body{
    margin-top:2%;
-    font-size:x-large;
+    font-size:large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left:2%;
     margin-right:2%;}
 img{
-    width:250px;
+    width:auto;
     border-radius:50%;
 }
 .tdtop{
    background-color: aqua;
-border-radius:15px;
-vertical-align:top;
+   border-radius:15px;
+   vertical-align:top;
 }
 td{
    vertical-align: text-top;
 }
 button{
-   width:auto;height:auto;
+   width:auto;
+   height:auto;
 }
 a{
-   font-size:x-large;
+   font-size:large;
    text-decoration: none;
 }
 a:hover{
