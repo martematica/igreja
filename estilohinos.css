@@ -1,3 +1,8 @@
+
+iframe{
+   width: 1000px;
+   height: 700px;
+}
 body{
    margin-top:2%;
     font-size:large;
@@ -19,12 +24,13 @@ td{
 button{
    width:200px;
    height:60px;
+   font-size:large;
 }
 a{
    font-size:large;
    text-decoration: none;
 }
-a:hover{
+button:hover{
    color:red;    
 }
 .direita{
