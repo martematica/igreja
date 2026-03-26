@@ -1,0 +1,118 @@
+
+.Top{
+    background-image:url(programação.jpeg);
+    height:100px;
+    border-radius:10px 10px 0px 0px;
+}
+.tabela{
+    border:solid;
+}
+.div1{
+    background-image:url(Imagens/logoEA.png);
+    max-width: 2240px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    border-radius:100px;
+}
+.b1
+{
+    width:440px;
+    height:30px;
+    background-image: url(Imagens/relogio.jpg);
+    border-radius: 15px;
+    margin: 1.2%;
+    font-size:55%;
+}
+.b1:hover
+{
+    background-image: url(Imagens/programação.jpeg);
+    border:solid;
+    border-color: red;
+    color:red;
+}
+.capa
+{
+    width: 50%;
+}
+
+.tema
+{
+    background-color: cornsilk;
+    font-size: large;
+    text-align: left;
+    color:black;
+    word-spacing: 20%;
+    margin: 1%;
+}
+body
+{
+    background-color: azure;
+    font-size: large;
+    text-align: left;
+    color:black;
+    word-spacing: 20%;
+    margin: 1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    max-width: 2240px;
+}
+h1
+{
+    text-align: center;
+    color:black;
+}
+h4
+{
+    text-align: center;
+    font-style:var(color);
+    font-size: medium;
+}
+p
+{
+    text-align: justify;
+    text-indent: 5%;
+    text-decoration: solid;
+    font-size: x-large;
+}
+a
+{
+    color:black;
+    font-style: normal;
+    font-size:190%;
+    text-decoration: none;
+    
+}
+a:hover
+{
+    color:white;
+    font-size:190%;
+    font-style: normal;
+    text-decoration: none;
+}
+
+ul
+{
+    color:blue;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+video
+{
+    width: 50%;
+    height: 50%;
+}
+footer{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    text-align: center;
+}
+@media(max-width:1100px) {
+    .b1{width: 90%;height: 80px;font-size:50px;margin-bottom: 50px;} 
+    img{width: 50px;}
+    .div1{display: flex; flex-direction: column;height: auto;}               
+    p{font-size:larger;}   
+    
+}
+ .frase{text-align: right;font-family: Georgia}

@@ -1,0 +1,117 @@
+.TopEdFinanceira{
+    background-image:url(Imagens/logoedfinanceira.avif);
+    height:90px;
+    border-radius:10px;
+}
+.TopProgramação{
+    background-image:url(Imagens/programação.jpeg);
+    height:90px;
+    border-radius:10px;
+}
+.TopMatemática{ 
+    background-image: url(Imagens/matequações.jpeg);
+    height: 90px;
+    border-radius:10px;
+}
+
+.TopRobóticaEF{
+    background-image: url(Imagens/cabeçalhoroboticapp1.jpeg);
+    height: 90px;
+    border-radius: 10px;
+}
+.TopRobóticaEM{
+    background-image: url(Imagens/robo.jpg);
+    height: 90px;
+    border-radius:10px;
+}
+.TopFísica{
+    background-image: url(Imagens/fisica.webp);
+    height: 90px;
+    border-radius:10px;
+}
+div{
+    height:50px;border-radius:10px;
+    background-image:url(robo.jpg);
+}
+body{
+    font-size: x-large;
+    background-color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left:10%;
+    margin-right:10%;
+}
+h1{
+    text-align:center;
+    background-color: blue;
+    border-radius:10px;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size:40px;
+}
+h3{
+    font-size:30px;
+}
+h4{
+    border: solid;
+    background-color: bisque;
+    border-radius: 15px;
+}
+
+img{
+    margin-left:0%;
+    border-radius:10px;
+    max-width: 100%;
+}
+a{
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;text-decoration:none;
+}
+a:hover{
+    color:red;
+}
+footer{
+    font-style: italic;
+    font-size:small;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    color:blue;
+}
+table{
+    text-align: center;
+}
+td{
+    border: solid;
+}
+video{
+    border: solid;
+    border-color: brown;
+    border-radius:5px;
+    width:1355;
+    height:550px;
+}
+iframe{width: 1050px;height: 600px; border-radius: 10px;}
+
+@media (max-width:500px) {
+    iframe{width: 320px; height: 200px;}
+    img{width: 320px;}
+    video{width: 320px; height: 200px;}
+}
+details{color:black;font-style: italic;}
+
+summary{color:blue;font-style: normal;}
+
+.math{ 
+    text-align: center; 
+    font-size:larger;
+    font-family:cursive;
+}
+sub{
+    font-size: medium;
+}
+ .frase{text-align: right;font-family: Georgia}
+
